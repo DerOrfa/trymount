@@ -1,0 +1,12 @@
+[package]
+name = "trymount"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio = { version = "1.44.2", features = ["fs", "rt-multi-thread", "time", "macros"] }
+clap = { version = "4.5.35", features = ["derive"] }
+
+[profile.release]
+strip = true  # Automatically strip symbols from the binary.
+lto = true
