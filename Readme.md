@@ -1,4 +1,4 @@
-# Experimental tool trigger UNIX automounts or time out
+# Experimental tool to trigger UNIX automounts or time out
 
 ## usage
 
